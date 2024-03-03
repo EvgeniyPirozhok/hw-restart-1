@@ -1,0 +1,88 @@
+:root {
+    --primary-text-color: #757575;
+    --tittle-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #ffffff;
+    --background-grey: #2F303A;
+    --background-light-grey: #F5F4FA;
+    --card-set-gap: 30px;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* фон футер и герой #2F303A */
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* фон футер и герой #2F303A */
+header {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    color: var(--tittle-text-color);
+    text-decoration: none;
+
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-1 {
+    color: var(--accent-color);
+}
+.navi{
+    display: flex;
+}
