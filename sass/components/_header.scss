@@ -1,7 +1,21 @@
-.main_logo{
-    justify-content: center;
-    display: flex;
+.header{
+    height: 85px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
 }
-.aaa{
-color: rgb(88, 255, 11);
+.main_logo{
+   margin-bottom: 10px;
+   display: flex;
+  justify-content: center;
+  
+}
+.header_nav{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    
+}
+.header_networks:not(:first-child){
+    margin-left: 30px;
 }
